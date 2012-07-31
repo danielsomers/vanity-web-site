@@ -1,0 +1,16 @@
+h1, #contact { text-align: center }
+
+.odd
+{
+  //background-color: #333745;
+  //color: #daede2;
+  overflow: hidden;
+  width: 100%;
+}
+
+.even
+{
+  //background-color: #77c4d3;
+  width: 100%;
+}
+//other background colour 77c4d3
