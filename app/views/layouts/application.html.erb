@@ -7,12 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<!--nave tool bar-->
-<!--About Daniel, My Projects, Contact, Tech Expertesse, CV -->
-<!--title-->
-<h1>Daniel Somers</h1>
-<h4>I write computer code.</h4>
+<!--nav tool bar-->
+<!--About Daniel, My Projects, Contact, Tech , CV -->
+<div id="header">
+  <h1>Daniel Somers</h1>
+  I write computer code.
+</div>
 <%= yield %>
-<!--create a footer with a copyright notice-->
+<div id="footer">
+  Copyright &copy; 2013 Daniel Somers. All rights reserved.
+</div>
 </body>
 </html>
