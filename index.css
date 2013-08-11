@@ -1,4 +1,8 @@
-body { text-align:center; }
+body
+{
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+}
 
 .blerbs
 {
@@ -7,4 +11,10 @@ body { text-align:center; }
   margin-right:auto;
   position:relative;
   text-align:left;
+}
+
+h1
+{
+  font-family: 'Josefin Slab', serif;
+  font-size: 3.5em;
 }
