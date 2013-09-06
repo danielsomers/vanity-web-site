@@ -9,5 +9,5 @@ cd ruby-1.9.3-p194/
 make
 make install
 gem install chef ruby-shadow --no-ri --no-rdoc
-#Run these commands to run chef
-#chef-solo -c solo.rb -j solo.json 
+cd ~/vanity-web-site/chef/
+chef-solo -c solo.rb -j solo.json 
