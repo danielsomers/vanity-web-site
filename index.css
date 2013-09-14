@@ -1,16 +1,48 @@
-body { text-align:center; }
-
-.blerbs
+@media screen and (min-width: 900px)
 {
-  width:35%;
-  margin-left:auto;
-  margin-right:auto;
-  position:relative;
-  text-align:left;
+  .blerb
+  {
+    display:inline-block;
+    margin:20px;
+  }
 }
+
+.blerb
+{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body { text-align: center; }
 
 h1
 {
   font-family: 'Josefin Slab', serif;
-  font-size: 3.5em;
+  font-size: 3.4em;
+}
+
+#footer 
+{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 650px)
+{
+  #header
+  {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 6500px)
+{
+  #header { text-align: center; }
 }
