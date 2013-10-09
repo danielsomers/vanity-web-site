@@ -46,3 +46,23 @@ h1
 {
   #header { text-align: center; }
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) 
+{
+  h1
+  {
+    font-family: serif;
+    font-size: 8em;
+    text-align:center;
+  }
+  #header, .blerb
+  {
+    display:block;
+    margin:40px;
+    width:auto;
+  }
+  content, #footer {font-size: 4em;}
+  #footer { width: auto; margin: auto; }
+}
