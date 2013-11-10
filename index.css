@@ -25,7 +25,7 @@ h1
   font-size: 3.4em;
 }
 
-#footer 
+footer 
 {
   width: 350px;
   margin-left: auto;
@@ -34,7 +34,7 @@ h1
 
 @media screen and (min-width: 650px)
 {
-  #header
+  header
   {
     width: 650px;
     margin-left: auto;
@@ -53,14 +53,14 @@ h1
     text-align:center;
   }
 
-  #header, .blerb
+  header, .blerb
   {
     display:block;
     margin:40px;
     width:auto;
   }
 
-  content, #footer {font-size: 4em;}
+  content, footer {font-size: 4em;}
 
-  #footer { width: auto; margin: auto; }
+  footer { width: auto; margin: auto; }
 }
