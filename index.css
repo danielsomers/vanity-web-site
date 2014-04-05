@@ -34,12 +34,11 @@ html, body
 }
 header
 {
-  background: url(images/square_bg.png);
+  background: url(images/grey_wash_wall.png);
   color: white;
-  background-color: #4D9FF7;
   width:100%;
   padding-bottom:30px;
-  box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 20px #000000;
 }
 
 footer 
@@ -108,6 +107,14 @@ footer
   only screen and (min--moz-device-pixel-ratio: 1.5),
   only screen and (min-resolution: 240dpi) 
 {
+  header
+  {
+    background: url(images/grey_wash_wall_@2X.png);
+    color: white;
+    width:100%;
+    padding-bottom:30px;
+    box-shadow: inset 0 0 40px #000000;
+  }
   #daniel
   {
     margin-left: auto;
